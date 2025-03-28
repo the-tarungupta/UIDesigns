@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#nav h3{
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 7px 15px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+#nav i{
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 7px 10px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+#nav h1{
+    font-weight: 100;
+    font-size: 22px;
+    
+}
+
+#nav button{
+    padding: 7px 10px;
+    border-radius: 50px;
+    
+}
+
+#btn1{
+    background-color: white;
+    border: 1px solid black;
+}
+
+#btn2{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+#main>h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    font-size: 120px;
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+}
+
+img{
+    height: 260px;
+    width: 220px;
+    object-fit: cover;
+    position: absolute;
+    object-position: top;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    transition: transform 1s ease-out, opacity 2s ease-out;
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-26deg);
+    object-position: bottom;
+
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-17deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-8deg);
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#sm-icons{
+    position: absolute;
+    bottom: 5%;
+    left: 92%;
+}
+
+h6{
+    position: absolute;
+    bottom: 2%;
+    left: 90%;
+    font-weight: 100;
+}
+
+#nav-part2{
+    display: flex;
+    gap: 10px;
+}
+
+#nav-part2 i{
+    background-color: orangered;
+    padding: 7px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.dark-mode {
+    background-color: black !important;
+    color: white !important;
+  }
+
+  .dark-mode #main {
+    background-color: black;
+}
+
+.dark-mode #nav h3,
+.dark-mode #nav i {
+    color: white;
+    border-color: white;
+}
+
+.dark-mode #btn1 {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+  #theme-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+

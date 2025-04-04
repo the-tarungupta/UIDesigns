@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    padding: 30px 40px;
+}
+
+#nav h3{
+    background-color: black;
+    color: white;
+    border-radius: 60px;
+    margin-left: 5px;
+    padding: 10px 15px;
+}
+
+
+#intro{
+    height: 68%;
+    width: 100%;
+    padding: 30px 40px;
+    
+}
+
+#intro h1{
+    font-size: 120px;
+    line-height: 105px;
+    letter-spacing: -3px;
+    margin-top: 70px;
+    
+
+}
+
+#place{
+    font-size: 24px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 100;
+}
+
+#image{
+    height: 90%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-1600.webp);
+    background-size: cover;
+}
+
+#about{
+    background-color: aliceblue;
+    height: 90%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 60px;
+}
+
+
+#about h2{
+    width: 60%;
+    font-size: 78px;
+    line-height: 85px;
+    font-weight: 1100;
+    letter-spacing: -4px;
+}
+
+#about2{
+    width: 40%;
+    height: 100%;
+    font-size: 25px;
+    border-left: 2px solid black;
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#icons i{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+#line{
+    border: 0.5px solid black;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    
+}
+
+#work{
+    height: 80%;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 50px 60px;
+    display: flex;
+    
+}
+
+#work1{
+    width: 30%;
+    height: 107%;
+    display: flex;
+    justify-content: space-between;
+    border-right: 2px solid black;
+}
+
+#work1 i{
+    padding: 4px 30px;
+    font-size: 25px;
+}
+
+#work1 h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#work2{
+    height: 100%;
+    width: 65%;
+    padding: 0 60px;
+}
+
+.part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.part:nth-child(1){
+    padding-top: 0;
+    border-bottom: 2px solid black;
+}
+
+.elem{
+    width: 50%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.elem:nth-child(1){
+    border-right: 2px solid black;
+    padding-right: 30px;
+    
+}
+
+.elem:nth-child(2){
+    padding-left: 60px;
+}
+
+.part h4{
+    font-size: 30px;
+}
+
+.part p{
+    font-size: 20px;
+    color: #5a5757;
+}

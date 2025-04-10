@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 12px;
+}
+
+#name{
+    display: flex;
+    gap: 250px;
+}
+
+#name i{
+    margin-right: 10px;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    font-size: 15px;
+}
+
+
+#nav i{
+    font-size: 18px;
+}
+
+#myself{
+    
+    height: 90%;
+    padding: 40px;
+    font-size: 12px;
+    
+}
+
+#myself h1{
+    margin-top: 25px;
+    font-size: 120px;
+    letter-spacing: -10px;
+    font-weight: 500;
+    line-height: 120px;
+}
+
+
+#case {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#case1{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+}
+
+#line{
+    height: 2px;
+    width: 100px;
+    background-color: black;
+}
+
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+
+.elem{
+    width: 45%;
+}
+
+.elem-img{
+    height: 370px;
+    border-radius: 20px;
+    background-color: #e7dede;
+    background-position: center;
+    background-size:cover;
+}
+
+#image1{
+    background-image: url(https://logotic.me/system/assets/uploads/vector-files/sketch-logo-1672698227-logotic-brand.svg);
+}
+
+#image2{
+    background-image: url(https://blog.frame.io/wp-content/uploads/2019/12/iPad_Review_Page_.png);
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-weight: 200;
+}
+
+.bottom h4{
+    color: #a7a0a0;
+}
+
+.bottom i{
+    border: 2px solid black;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+.bottom i:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.dark-mode {
+    background-color: black !important;
+    color: white !important;
+  }
+
+  .dark-mode #main {
+    background-color: black;
+}
+
+.dark-mode #nav i {
+    color: white;
+    border-color: white;
+}
+
+
+
+  #theme-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.dark-mode .elem i{
+    border: 2px solid white;
+}
+
+.dark-mode .elem i:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+
